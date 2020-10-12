@@ -56,12 +56,15 @@ else
     protected override async Task OnInitializedAsync()
     {
         int[] ids = await Http.GetJsonAsync<int[]>("https://hacker-news.firebaseio.com/v0/askstories.json?print=pretty");
-        for (var i = 0; i < 10; i++) {
+        for (var i = 0; i < 20; i++) {
         
             var data = await Http.GetJsonAsync<PostData>("https://hacker-news.firebaseio.com/v0/item/" + ids[i] + ".json?print=pretty");
             
-            posts.Add(new Post(ids[i], data));
+            if (data.GetComments() >= 10)
+                posts.Add(new Post(ids[i], data));
         }
+        
+        posts.Sort(delegate(Post p1, Post p2) { return p2.data.GetComments().CompareTo(p1.data.GetComments()); });
     }
     
     
