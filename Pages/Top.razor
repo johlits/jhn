@@ -16,6 +16,7 @@ else
             <tr>
                 <th>id</th>
                 <th>title</th>
+                <th>Comments</th>
             </tr>
         </thead>
         <tbody>
@@ -24,6 +25,7 @@ else
                 <tr>
                     <td><a href="https://news.ycombinator.com/item?id=@post.id">@post.id</a></td>
                     <td><a href="@post.data.url">@post.data.title</a></td>
+                    <td>@post.data.GetComments()</td>
                 </tr>
             }
         </tbody>
@@ -42,6 +44,11 @@ else
         public string title { get; set; }
         public string type { get; set; }
         public string url { get; set; }
+        public int GetComments() {
+            if (kids == null)
+                return 0;
+            return kids.Count();
+        }
     }
 
     List<Post> posts = new List<Post>();
