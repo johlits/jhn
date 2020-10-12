@@ -65,7 +65,6 @@
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/jhn.RazorComponent.input.cache
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/RazorDeclaration/App.razor.g.cs
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/RazorDeclaration/Pages/Counter.razor.g.cs
-/Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/RazorDeclaration/Pages/FetchData.razor.g.cs
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/RazorDeclaration/Pages/Index.razor.g.cs
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
@@ -77,7 +76,6 @@
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/jhn.RazorCoreGenerate.cache
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/Razor/App.razor.g.cs
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/Razor/Pages/Counter.razor.g.cs
-/Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/Razor/Pages/FetchData.razor.g.cs
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/Razor/Pages/Index.razor.g.cs
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/Razor/Shared/MainLayout.razor.g.cs
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/Razor/Shared/NavMenu.razor.g.cs
@@ -127,3 +125,9 @@
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/blazor/linker/jhn.pdb
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/blazor/inputs.bootjson.cache
 /Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/blazor/blazor.boot.json
+/Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/RazorDeclaration/Pages/Top.razor.g.cs
+/Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/Razor/Pages/Top.razor.g.cs
+/Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/RazorDeclaration/Pages/Ask.razor.g.cs
+/Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/RazorDeclaration/Pages/Show.razor.g.cs
+/Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/Razor/Pages/Ask.razor.g.cs
+/Users/johanlitsfeldt/blazor/jhn/obj/Debug/netstandard2.0/Razor/Pages/Show.razor.g.cs
