@@ -100,6 +100,17 @@ app {
     color: red;
 }
 
+.ta {
+    padding: 1.1rem;
+    background-color: #222;
+    color: #eee;
+    border-color: #333;
+}
+
+.ta:focus {
+    outline: none !important;
+}
+
 .table {
     color: #eee;
 }

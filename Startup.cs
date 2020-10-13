@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Blazored.LocalStorage;
 
 namespace jhn
 {
@@ -7,6 +8,7 @@ namespace jhn
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddBlazoredLocalStorage();
         }
 
         public void Configure(IComponentsApplicationBuilder app)
