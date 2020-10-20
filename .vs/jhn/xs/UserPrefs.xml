@@ -1,18 +1,24 @@
 ﻿<Properties StartupConfiguration="{6BCC5283-DBF4-4CCE-A0AD-3E79EDDCC984}|Default">
   <MonoDevelop.Ide.ItemProperties.jhn PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/MainLayout.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Links.razor">
     <Files>
       <File FileName="Shared/NavMenu.razor" Line="1" Column="1" />
-      <File FileName="Shared/MainLayout.razor" Line="13" Column="91" />
+      <File FileName="Shared/MainLayout.razor" Line="8" Column="31" />
+      <File FileName="wwwroot/index.html" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="Pages/Links.razor" Line="12" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="jhn" expanded="True">
             <Node name="jhn" expanded="True">
-              <Node name="Shared" expanded="True">
-                <Node name="MainLayout.razor" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Links.razor" selected="True" />
               </Node>
+              <Node name="Shared" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
